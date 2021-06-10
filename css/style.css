@@ -1,0 +1,121 @@
+/* Custom Stylesheet */
+/**
+ * Use this file to override Materialize files so you can update
+ * the core Materialize files in the future
+ *
+ * Made By MaterializeCSS.com
+ */
+
+body {
+  color: #3b5f40;
+}
+
+/* Nav bar */
+nav {
+  background-color: rgba(0,0,0,0);
+}
+nav ul a,
+nav .brand-logo {
+  color: #004d40;
+  font-weight: 500;
+  letter-spacing: .1em;
+}
+nav ul a {
+  font-size: 1.2em;
+}
+.brand-logo img {
+  width: auto;
+  height: 64px;
+}
+
+/* Mobile sidenav*/
+.sidenav-trigger {
+  color: #3b5f40;
+}
+
+/* Hero banner */
+#hero-banner {
+  max-height: 500px;
+}
+#hero-icon {
+  width: 400px;
+  max-height: 300px;
+}
+#hero-banner .row {
+  margin: 0;
+  background-color: rgba(8,61,37,0.3);
+}
+
+p {
+  line-height: 2rem;
+}
+
+/* Message section */
+.banner {
+  height: 400px;
+  object-fit: cover;
+  width: 100%;
+}
+.banner-row {
+  height: 400px;
+}
+.banner-row .col {
+  padding: 0;
+}
+@media screen and (max-width: 600px) {
+  .banner {
+    height: 250px;
+  }
+  .banner-row {
+    height: 250px;
+  }
+}
+
+.parallax-container {
+  min-height: 400px;
+  line-height: 0;
+  height: auto;
+  color: rgba(255,255,255,.9);
+}
+.parallax-container .section {
+  width: 100%;
+}
+
+/* Google map */
+.map-responsive{
+  overflow:hidden;
+  padding-bottom:56.25%;
+  position:relative;
+  height:0;
+}
+
+.map-responsive iframe{
+  left:0;
+  top:0;
+  height:100%;
+  width:100%;
+  position:absolute;
+}
+
+footer.page-footer {
+  margin: 0;
+}
+
+/* Age verification modal */
+.modal {
+  top: 30% !important;
+  max-width: 35em;
+}
+
+.modal-close.red-text {
+  margin-right: 2px !important;
+}
+
+.social-icon {
+  margin-top: 2px !important;
+  margin-right: 5px !important;
+}
+
+.social-button {
+  color: #004d40;
+}
