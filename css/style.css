@@ -129,3 +129,16 @@ footer.page-footer {
 #menu {
   margin-top: 5%
 }
+
+/* Menu Button */
+#menu-btn {
+  border-radius: 12px;
+  color: #3b5f40;
+  background-color:white;
+  font-weight: 500;
+}
+
+#menu-btn:hover {
+  color: white;
+  background-color:#3b5f40;
+}
