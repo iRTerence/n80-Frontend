@@ -85,6 +85,12 @@ p {
   width: 100%;
 }
 
+@media only screen and (max-width: 600px) {
+  .parallax-container {
+      height: 150px;
+  }
+}
+
 /* Google map */
 .map-responsive{
   overflow:hidden;
@@ -104,6 +110,8 @@ p {
 footer.page-footer {
   margin: 0;
 }
+
+
 
 /* Age verification modal */
 .modal {
