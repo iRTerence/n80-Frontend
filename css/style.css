@@ -10,6 +10,10 @@ body {
   color: #3b5f40;
 }
 
+/* div {
+  border: black 1px solid
+} */
+
 /* Nav bar */
 nav {
   background-color: rgba(0,0,0,0);
@@ -35,11 +39,11 @@ nav ul a {
 
 /* Hero banner */
 #hero-banner {
-  max-height: 500px;
+  max-height: 600px;
 }
 #hero-icon {
-  width: 400px;
-  max-height: 300px;
+  width: 800px;
+  max-height: 400px;
 }
 #hero-banner .row {
   margin: 0;
@@ -48,12 +52,6 @@ nav ul a {
 
 p {
   line-height: 2rem;
-}
-
-.responsive {
-  width: 100%;
-  object-fit: cover;
-  height: auto;
 }
 
 /* Message section */
@@ -133,14 +131,14 @@ footer.page-footer {
 /* Menu Button */
 #menu-btn {
   border-radius: 12px;
-  color: #3b5f40;
-  background-color:whitesmoke;
+  color: whitesmoke;
+  background-color: #3b5f40;
   font-weight: 500;
 }
 
 #menu-btn:hover {
-  color: white;
-  background-color:#3b5f40;
+  color: #3b5f40;
+  background-color: whitesmoke;
 }
 
 /* footer  */
