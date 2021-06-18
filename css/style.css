@@ -7,12 +7,26 @@
  */
 
 body {
-  color: #3b5f40;
+  /* color: #3b5f40; */
 }
 
-/* div {
+div {
   border: black 1px solid
-} */
+}
+
+.philosophy h5 {
+  font-family: 'Staatliches', sans-serif;
+}
+
+.philosophy span {
+  color: #3b5f40;
+
+}
+
+h3 {
+  font-family: 'Staatliches', sans-serif;
+  font-weight: bold
+}
 
 /* Nav bar */
 nav {
@@ -40,6 +54,7 @@ nav ul a {
 /* Hero banner */
 #hero-banner {
   max-height: 600px;
+  margin-bottom: 0
 }
 #hero-icon {
   width: 800px;
@@ -47,7 +62,7 @@ nav ul a {
 }
 #hero-banner .row {
   margin: 0;
-  background-color: rgba(8,61,37,0.3);
+  /* background-color: rgba(8,61,37,0.3); */
 }
 
 p {
@@ -89,6 +104,33 @@ p {
   .parallax-container {
       height: 150px;
   }
+}
+
+
+/* Philsophy Section */
+
+.message {
+  background-color: #FDF6F0;
+  margin-top: 0
+
+} 
+
+.philosophy img{
+  width:100%;
+  height:100%;
+  object-fit: contain;
+}
+
+.items {
+  height: 500px
+}
+
+#item2 {
+  padding-top: 10%
+}
+
+@media only screen and (max-width: 767px) {
+  .items { height: 350px }
 }
 
 /* Google map */

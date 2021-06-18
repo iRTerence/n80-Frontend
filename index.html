@@ -8,6 +8,7 @@
 
   <script src="https://kit.fontawesome.com/1ee0590d4a.js" crossorigin="anonymous"></script>
   <!-- CSS  -->
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;1,300&display=swap" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css2?family=Staatliches&display=swap" rel="stylesheet">
   <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
@@ -22,6 +23,7 @@
    <div class="navbar-fixed">
      <nav role="navigation" class="white">
        <div class="nav-wrapper container">
+        <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
          <a id="logo-container" href="https://terencetan.ca" class="brand-logo"><img src="assets/images/nav-logo.png"></a>
          <ul class="right hide-on-med-and-down">
            <li><a href="https://facebook.com">
@@ -44,32 +46,30 @@
            <li><a href="https://www.n80.ca/menu/menu#/menu">MENU</a></li>
 
          </ul>
-
-         <ul id="nav-mobile" class="sidenav sidenav-close">
-           <li><a href="https://facebook.com">
-             <i class="material-icons">
-               <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1"
-                 width="24" height="24" viewBox="0 0 24 24">
-                 <path fill="currentColor"
-                   d="M12 2.04C6.5 2.04 2 6.53 2 12.06C2 17.06 5.66 21.21 10.44 21.96V14.96H7.9V12.06H10.44V9.85C10.44 7.34 11.93 5.96 14.22 5.96C15.31 5.96 16.45 6.15 16.45 6.15V8.62H15.19C13.95 8.62 13.56 9.39 13.56 10.18V12.06H16.34L15.89 14.96H13.56V21.96A10 10 0 0 0 22 12.06C22 6.53 17.5 2.04 12 2.04Z" />
-               </svg>
-             </i>
-           </a></li>
-         <li><a href="https://twitter.com">
-             <i class="material-icons">
-               <svg style="width:24px;height:24px" viewBox="0 0 24 24">
-                 <path fill="currentColor"
-                   d="M7.8,2H16.2C19.4,2 22,4.6 22,7.8V16.2A5.8,5.8 0 0,1 16.2,22H7.8C4.6,22 2,19.4 2,16.2V7.8A5.8,5.8 0 0,1 7.8,2M7.6,4A3.6,3.6 0 0,0 4,7.6V16.4C4,18.39 5.61,20 7.6,20H16.4A3.6,3.6 0 0,0 20,16.4V7.6C20,5.61 18.39,4 16.4,4H7.6M17.25,5.5A1.25,1.25 0 0,1 18.5,6.75A1.25,1.25 0 0,1 17.25,8A1.25,1.25 0 0,1 16,6.75A1.25,1.25 0 0,1 17.25,5.5M12,7A5,5 0 0,1 17,12A5,5 0 0,1 12,17A5,5 0 0,1 7,12A5,5 0 0,1 12,7M12,9A3,3 0 0,0 9,12A3,3 0 0,0 12,15A3,3 0 0,0 15,12A3,3 0 0,0 12,9Z" />
-               </svg>
-             </i>
-           </a></li>
-           <li><a href="https://www.n80.ca/menu/menu#/menu">Menu</a></li>
-
-         </ul>
-         <a href="https://www.n80.ca/menu/menu#/menu" data-target="nav-mobile" class="sidenav-trigger"><i class="material-icons">menu</i></a>
        </div>
      </nav>
    </div>
+   <ul id="mobile-demo" class="sidenav sidenav-close" >
+    <li><a href="https://facebook.com">
+      <i class="material-icons">
+        <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1"
+          width="24" height="24" viewBox="0 0 24 24">
+          <path fill="currentColor"
+            d="M12 2.04C6.5 2.04 2 6.53 2 12.06C2 17.06 5.66 21.21 10.44 21.96V14.96H7.9V12.06H10.44V9.85C10.44 7.34 11.93 5.96 14.22 5.96C15.31 5.96 16.45 6.15 16.45 6.15V8.62H15.19C13.95 8.62 13.56 9.39 13.56 10.18V12.06H16.34L15.89 14.96H13.56V21.96A10 10 0 0 0 22 12.06C22 6.53 17.5 2.04 12 2.04Z" />
+        </svg>
+      </i>
+    </a></li>
+     <li><a href="https://twitter.com">
+      <i class="material-icons">
+        <svg style="width:24px;height:24px" viewBox="0 0 24 24">
+          <path fill="currentColor"
+            d="M7.8,2H16.2C19.4,2 22,4.6 22,7.8V16.2A5.8,5.8 0 0,1 16.2,22H7.8C4.6,22 2,19.4 2,16.2V7.8A5.8,5.8 0 0,1 7.8,2M7.6,4A3.6,3.6 0 0,0 4,7.6V16.4C4,18.39 5.61,20 7.6,20H16.4A3.6,3.6 0 0,0 20,16.4V7.6C20,5.61 18.39,4 16.4,4H7.6M17.25,5.5A1.25,1.25 0 0,1 18.5,6.75A1.25,1.25 0 0,1 17.25,8A1.25,1.25 0 0,1 16,6.75A1.25,1.25 0 0,1 17.25,5.5M12,7A5,5 0 0,1 17,12A5,5 0 0,1 12,17A5,5 0 0,1 7,12A5,5 0 0,1 12,7M12,9A3,3 0 0,0 9,12A3,3 0 0,0 12,15A3,3 0 0,0 15,12A3,3 0 0,0 12,9Z" />
+        </svg>
+      </i>
+     </a></li>
+    <li><a href="https://www.n80.ca/menu/menu#/menu">Menu</a></li>
+
+  </ul>
   </header>
     <!-- hero banner -->
     <div id="hero-banner" class="row parallax-container valign-wrapper">
@@ -80,25 +80,28 @@
 
         </div>
       </div>
-      <div class="parallax"><img  src="assets/images/backgrounds/hero-banner-v2.jpg" alt="Unsplashed background img" class="responsive-img"></div>
+      <div class="parallax"><img  src="assets/images/backgrounds/hero-banner-v2.png" alt="Unsplashed background img"></div>
     </div>
-
 
 
     <!-- message -->
-    <div class="container message">
-      <div class="row center">
-        <div class="row">
-          <div class="col s12 center">
-            
-            <h4>Redefining cannabis experience</h4>
+    <div class="message">
+      <div class="container">
+        <div class="row philosophy">
+          <div class="col s12 l6 m6 items" id="item2">
+            <h3>Our Philsophy</h3>
+            <h5>Cannabis Made <span>Easy</span></h5>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos nisi, quasi eum saepe nihil blanditiis reiciendis nemo quia natus hic voluptatibus quod ullam ea qui veritatis culpa! Veritatis, iusto nesciunt?</p>
+
+          </div>
+          <div class="col s12 l6 m6 items" >
+            <img class="responsive-img" src="assets/images/Wuxing colours.png">
           </div>
         </div>
-        <h5>At North80 we like to foster a community and passionate understanding between customers and cannabis
-          products. Our in-depth knowledge and understanding allow us to truly connect our customers with the right
-          products for your needs.</h5>
       </div>
     </div>
+
+
     <div class="divider"></div>
 
     <!-- Featured products -->
@@ -115,7 +118,6 @@
             <div class="card">
               <div class="card-image">
                 <img src="assets/images/products/product1.jpg">
-                <!-- <span class="card-title">Card Title</span> -->
               </div>
               <div class="card-content">
                 <p>Everie’s Dragon Fruit Watermelon CBD Sparkling Beverage was crafted with great taste in mind.</p>
@@ -130,7 +132,6 @@
             <div class="card">
               <div class="card-image">
                 <img src="assets/images/products/product2.jpg">
-                <!-- <span class="card-title">Card Title</span> -->
               </div>
               <div class="card-content">
                 <p>Pure Sunfarms’ cut of Pink Kush from BC’s Vancouver Island is a coastal relative of the legendary OG
@@ -146,7 +147,6 @@
             <div class="card">
               <div class="card-image">
                 <img src="assets/images/products/product3.jpg">
-                <!-- <span class="card-title">Card Title</span> -->
               </div>
               <div class="card-content">
                 <p>Crisp with an easy drinking taste. Each bottle 5mg CBD + 5mg THC. Pour into a chilled glass & enjoy.
@@ -165,6 +165,19 @@
     <div class="banner-row">
       <div class="col s12 m6">
         <img class="banner" src="assets/images/backgrounds/free-delivery.jpg">
+      </div>
+    </div>
+
+    <!-- Carousel -->
+
+    <div>
+      <h3>Read what our customers say</h3>
+      <div class="carousel">
+        <a class="carousel-item" href="#one!"><img src="https://lorempixel.com/250/250/nature/1"></a>
+        <a class="carousel-item" href="#two!"><img src="https://lorempixel.com/250/250/nature/2"></a>
+        <a class="carousel-item" href="#three!"><img src="https://lorempixel.com/250/250/nature/3"></a>
+        <a class="carousel-item" href="#four!"><img src="https://lorempixel.com/250/250/nature/4"></a>
+        <a class="carousel-item" href="#five!"><img src="https://lorempixel.com/250/250/nature/5"></a>
       </div>
     </div>
 
@@ -187,7 +200,7 @@
           </div>
           <div class="col s12 m4">
             <div class="row">
-              <div class="col m12 s6">
+              <div class="col m12 s12">
                 <h6>Store Hours</h6>
                 <p>
                   Monday &nbsp &nbsp &nbsp 10 am - 8 pm<br>
@@ -199,7 +212,7 @@
                   Sunday &nbsp &nbsp &nbsp 10 am - 8 pm<br>
                 </p>
               </div>
-              <div class="col m12 s6">
+              <div class="col m12 s12">
                 <h6>Contact</h6>
                 <p>
                   Phone: (416)293-1118<br />
@@ -211,7 +224,6 @@
         </div>
       </div>
     </div>
-
 
     <!-- Footer -->
      <!-- Site footer -->
@@ -289,5 +301,8 @@
     <script src="js/init.js"></script>
 
 </body>
+
+<!-- google svg -->
+<!-- <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" height="44" width="44"><g fill="none" fill-rule="evenodd"><path d="M482.56 261.36c0-16.73-1.5-32.83-4.29-48.27H256v91.29h127.01c-5.47 29.5-22.1 54.49-47.09 71.23v59.21h76.27c44.63-41.09 70.37-101.59 70.37-173.46z" fill="#4285f4"></path><path d="M256 492c63.72 0 117.14-21.13 156.19-57.18l-76.27-59.21c-21.13 14.16-48.17 22.53-79.92 22.53-61.47 0-113.49-41.51-132.05-97.3H45.1v61.15c38.83 77.13 118.64 130.01 210.9 130.01z" fill="#34a853"></path><path d="M123.95 300.84c-4.72-14.16-7.4-29.29-7.4-44.84s2.68-30.68 7.4-44.84V150.01H45.1C29.12 181.87 20 217.92 20 256c0 38.08 9.12 74.13 25.1 105.99l78.85-61.15z" fill="#fbbc05"></path><path d="M256 113.86c34.65 0 65.76 11.91 90.22 35.29l67.69-67.69C373.03 43.39 319.61 20 256 20c-92.25 0-172.07 52.89-210.9 130.01l78.85 61.15c18.56-55.78 70.59-97.3 132.05-97.3z" fill="#ea4335"></path><path d="M20 20h472v472H20V20z"></path></g></svg> -->
 
 </html>
