@@ -114,13 +114,77 @@ footer.page-footer {
 
 
 /* Age verification modal */
-.modal {
-  top: 30% !important;
-  max-width: 35em;
+ .modal {
+  top: 20% !important;
+  max-width: 40em;
+  background-color: whitesmoke;
+  /* color:#0a2d1c */
+  color: black;
+  text-align: center;
+  padding: 10px
+} 
+
+.modal-footer {
+  background-color: whitesmoke;
+  text-align: center;
+  width: 5px
+}
+
+.modal p {
+  font-size: 1.5rem;
+  text-align: center;
+  margin: 0;
+  font-family: 'Staatliches', sans-serif;
+}
+
+.modal h2 {
+  text-align: center;
+  margin: 0;
+  font-family: 'Staatliches', sans-serif;
+  border-bottom: 4px black solid;
+
+}
+.modal h6 {
+  text-align: center;
+  margin: 0;
+  padding-top: 5px;
+  font-size: 0.8em; 
+
+}
+
+.modal-overlay {
+  opacity: 0.9 !important;
+}
+
+.modal button{
+  background-color: #0a2d1c;
+  color: white;
+  font-family: 'Staatliches', sans-serif;
+  padding: 15px 64px;
+  font-size: 16px;
+  margin: 5px
+
+}
+
+#modal-buttons {
+  margin: 5px
+
 }
 
 .modal-close.red-text {
   margin-right: 2px !important;
+} 
+
+#modal-logo {
+  width: 200px;
+  height: auto;
+  margin-bottom: 0;
+}
+
+#modal-logo img {
+  width:100%;
+  height:100%;
+  object-fit:cover;
 }
 
 .social-icon {
@@ -150,9 +214,6 @@ footer.page-footer {
 }
 
 /* footer  */
-/* #footerm {
-  background-color: #3b5f40;
-} */
 
 
 

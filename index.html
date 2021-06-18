@@ -8,6 +8,7 @@
 
   <script src="https://kit.fontawesome.com/1ee0590d4a.js" crossorigin="anonymous"></script>
   <!-- CSS  -->
+  <link href="https://fonts.googleapis.com/css2?family=Staatliches&display=swap" rel="stylesheet">
   <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
   <link href="css/style.css" type="text/css" rel="stylesheet" media="screen,projection" />
@@ -266,18 +267,20 @@
 
 
     <!-- Modal Structure -->
-    <div id="age-verification" class="modal">
-      <div class="modal-content ">
-        <h5>AGE VERIFICATION</h5>
-        <!-- <div class="row"> -->
-        <h6>By clicking enter, I certify that I am over the age of 19.</h6>
-        <!-- </div> -->
+    <div id="age-verification" class="modal modal-trigger">
+      <div class="modal-content">
+          <div class="row" id="modal-logo">
+              <img src="assets/images/nav-logo.png">
+          </div>
+          <h2>Care for some weed?</h2>
+          <p>Confirm that you are over 19 years old or older and come join us!</p>
       </div>
-      <div class="modal-footer">
-        <a id="age-verification-enter" class="modal-close waves-effect waves-green btn-flat teal-text">Enter</a>
-        <a href="javascript:document.location.href='/';"
-          class="modal-close waves-effect waves-red btn-flat red-text">Exit</a>
+      <div id="modal-buttons">
+        <a id="age-verification-enter" class="modal-close"><button>Enter</button></a>
+        <a href="javascript:document.location.href='/';" class="modal-close"><button>Exit</button></a>
       </div>
+      <h6>In order to view this page you must be at least 19 years old.</h6>
+
     </div>
 
     <!--  Scripts-->
