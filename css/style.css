@@ -69,12 +69,41 @@ p {
 }
 
 /* Reviews */
+.testimonials {
+  background-color: #fafafa;
+}
+
+.carousel .indicators .indicator-item {
+  background: rgb(84 110 122) !important;
+}
+
+.carousel .indicators .indicator-item.active {
+  background-color: rgb(31 99 87) !important;
+}
 .carousel-item {
   max-height: 300px !important;
 }
 
+.carousel-item p {
+  color: #585858;
+}
+
+.fa-quote-left {
+  color: #585858;
+}
+
+.google-review {
+  float: right;
+}
+
+.fa-star {
+  color: #fdcc0d;
+}
+
 #customer-review {
   text-align: center;
+  margin: 0 !important;
+  /* color: #d0d0d0; */
 }
 
 .carousel.carousel-slider .carousel-item {
@@ -148,9 +177,6 @@ p {
 
 #item2 {
   padding-top: 6%;
-}
-
-#item1 {
 }
 
 /* Menu Button */
@@ -291,11 +317,11 @@ footer.page-footer {
 }
 
 .site-footer {
-  background-color: #3b5f40;
+  background-color: #fdf6f0;
   padding: 45px 0 20px;
   font-size: 15px;
   line-height: 24px;
-  color: whitesmoke;
+  color: black;
 }
 .site-footer hr {
   border-top-color: #bbb;
@@ -305,14 +331,14 @@ footer.page-footer {
   margin: 20px 0;
 }
 .site-footer h6 {
-  color: #fff;
+  color: black;
   font-size: 16px;
   text-transform: uppercase;
   margin-top: 5px;
   letter-spacing: 2px;
 }
 .site-footer a {
-  color: whitesmoke;
+  color: black;
 }
 .site-footer a:hover {
   color: #3366cc;
@@ -326,7 +352,7 @@ footer.page-footer {
   display: block;
 }
 .footer-links a {
-  color: whitesmoke;
+  color: black;
 }
 .footer-links a:active,
 .footer-links a:focus,
