@@ -70,8 +70,19 @@ p {
 }
 
 /* Reviews */
+
 .testimonials {
   background-color: #fafafa;
+}
+
+.fa-user {
+  color: #004d40;
+}
+
+.author {
+  padding-left: 2%;
+  font-weight: bold;
+  color: #585858;
 }
 
 .carousel .indicators .indicator-item {
@@ -83,6 +94,7 @@ p {
 }
 .carousel-item {
   max-height: 300px !important;
+  overflow: auto;
 }
 
 .carousel-item p {
@@ -109,6 +121,15 @@ p {
 
 .carousel.carousel-slider .carousel-item {
   min-height: 400px;
+}
+
+@media screen and (max-width: 600px) {
+  .banner {
+    height: 250px;
+  }
+  .banner-row {
+    height: 250px;
+  }
 }
 
 /* Message section */
@@ -149,7 +170,7 @@ p {
 
 /* Contact Us  */
 
-.contact h4 {
+#contact h4 {
   font-family: "Staatliches", sans-serif;
 }
 
