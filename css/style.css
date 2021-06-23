@@ -25,6 +25,7 @@ body {
 h3 {
   font-family: "Staatliches", sans-serif;
   font-weight: bold;
+  padding-top: 30px;
 }
 
 /* Nav bar */
@@ -113,7 +114,6 @@ p {
 /* Message section */
 .banner {
   height: 400px;
-  object-fit: cover;
   width: 100%;
 }
 .banner-row {
@@ -145,6 +145,12 @@ p {
   .parallax-container {
     height: 150px;
   }
+}
+
+/* Contact Us  */
+
+.contact h4 {
+  font-family: "Staatliches", sans-serif;
 }
 
 /* Philsophy Section */
@@ -321,8 +327,9 @@ footer.page-footer {
   padding: 45px 0 20px;
   font-size: 15px;
   line-height: 24px;
-  color: black;
+  color: #585858;
 }
+
 .site-footer hr {
   border-top-color: #bbb;
   opacity: 0.5;
@@ -331,14 +338,14 @@ footer.page-footer {
   margin: 20px 0;
 }
 .site-footer h6 {
-  color: black;
+  color: #4f7955;
   font-size: 16px;
   text-transform: uppercase;
   margin-top: 5px;
   letter-spacing: 2px;
 }
 .site-footer a {
-  color: black;
+  color: #585858;
 }
 .site-footer a:hover {
   color: #3366cc;
@@ -352,7 +359,7 @@ footer.page-footer {
   display: block;
 }
 .footer-links a {
-  color: black;
+  color: #585858;
 }
 .footer-links a:active,
 .footer-links a:focus,
