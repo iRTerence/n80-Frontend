@@ -429,6 +429,36 @@ footer.page-footer {
   margin-top: 5%;
 }
 
+/* Philosophy Page */
+#fire {
+  color: #c03e3e;
+}
+
+#earth {
+  color: #ffd200;
+}
+
+.water {
+  color: #7f9dbe;
+}
+
+.metal {
+  color: #afaeb7;
+}
+
+.wood {
+  color: #4e6358;
+}
+
+#hero-banner-philosophy .row {
+  margin: 0;
+  background-color: rgba(8, 61, 37, 0.3);
+}
+
+#hero-banner-philosophy {
+  max-height: 500px;
+}
+
 /* footer  */
 
 .icon {
