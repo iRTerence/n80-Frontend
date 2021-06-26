@@ -299,6 +299,16 @@ img.weedmap-img:hover + p.promo-caption {
   padding-top: 5%;
 }
 
+.philantrophy {
+  background-color: #fafafa;
+  padding-top: 10px;
+}
+
+#hero-banner-philantrophy {
+  max-height: 500px;
+  margin: 0;
+}
+
 /* Menu Button */
 #menu-btn {
   border-radius: 12px;
