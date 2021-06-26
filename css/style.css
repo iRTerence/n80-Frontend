@@ -14,6 +14,10 @@ body {
   background-image: url("../assets/images/PLANT.png");
 }
 
+.grey-background {
+  background-color: #fafafa;
+}
+
 /* div {
   border: black 1px solid;
 } */
@@ -467,6 +471,12 @@ footer.page-footer {
 
 #hero-banner-philosophy {
   max-height: 500px;
+  margin-bottom: 0;
+}
+
+.grey-background h1.ccf {
+  margin-top: 0;
+  padding-top: 4%;
 }
 
 /* footer  */
