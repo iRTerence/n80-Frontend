@@ -18,6 +18,20 @@ body {
   background-color: #fafafa;
 }
 
+.active-page {
+  text-decoration: underline;
+  text-decoration-color: #3b5f40;
+  text-underline-offset: 2px;
+  text-decoration-style: wavy;
+}
+
+.active-page a:after {
+  content: "";
+  height: 2px;
+  background: black;
+  display: block;
+}
+
 /* div {
   border: black 1px solid;
 } */
@@ -71,6 +85,11 @@ nav ul a {
   height: 64px;
 }
 
+.logo {
+  width: auto;
+  height: 64px;
+}
+
 /* Mobile sidenav*/
 .sidenav-trigger {
   color: #3b5f40;
@@ -87,7 +106,7 @@ nav ul a {
 }
 #hero-banner .row {
   margin: 0;
-  /* background-color: rgba(8,61,37,0.3); */
+  background-color: rgba(8, 61, 37, 0.3);
 }
 
 p {
