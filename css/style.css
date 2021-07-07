@@ -14,6 +14,27 @@ body {
   background-image: url("../assets/images/PLANT.png");
 }
 
+#plant1 {
+  position: absolute;
+}
+
+#plant2 {
+  display: inline;
+  position: absolute;
+  margin-top: 10rem;
+}
+
+#plant {
+  width: 25%;
+  height: auto;
+}
+
+#testplant {
+  width: 25%;
+  height: auto;
+  float: right;
+}
+
 .grey-background {
   background-color: #fafafa;
 }
