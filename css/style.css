@@ -53,10 +53,6 @@ body {
   display: block;
 }
 
-/* div {
-  border: black 1px solid;
-} */
-
 /* company colour */
 .cc {
   color: #3b5f40;
@@ -210,9 +206,6 @@ p {
 }
 
 /* Our Selection */
-
-.selection {
-}
 
 .selection img {
   height: auto;
